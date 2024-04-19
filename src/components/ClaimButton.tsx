@@ -1,7 +1,7 @@
 import React from 'react';
 import { useWriteContract } from 'wagmi';
 import { useToast } from '@chakra-ui/react';
-import contractABI from '../../abi/GiftonFarcastergnosis.json';
+import contractABI from '../../abi/giftonfarcaster.json';
 import { TRANSFER_CONTRACT_ADDRESS } from '../../const/addresses';
 
 type Props = {
